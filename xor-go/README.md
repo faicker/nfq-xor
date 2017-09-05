@@ -1,5 +1,7 @@
-Packet payload xor by nfqueue and userspace program xor which is written by golang. Xor is its own inverse. That is, to undo xor, the same algorithm is applied, so the same action can be used for encoding and decoding.
+xor-go
 ==================
+Packet payload xor by nfqueue and userspace program xor which is written by golang.  
+[Xor](https://en.wikipedia.org/wiki/XOR_cipher) is its own inverse. That is, to undo xor, the same algorithm is applied, so the same action can be used for encoding and decoding.
 
 ## requirement
 ```bash
